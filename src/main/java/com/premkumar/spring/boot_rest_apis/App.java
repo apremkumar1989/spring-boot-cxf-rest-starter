@@ -23,7 +23,7 @@ public class App {
 	@Bean
 	public Swagger2Feature swagger() {
 		Swagger2Feature swagger = new Swagger2Feature();
-		swagger.setContact("no-reply@isha.blalba");
+		swagger.setContact("no-reply@asdf.blalba");
 		swagger.setBasePath("/services");
 		// swagger.setDynamicBasePath(true);
 		swagger.setTitle("Spring Boot CXF rest APIs");
